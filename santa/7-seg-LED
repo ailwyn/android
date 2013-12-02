@@ -1,0 +1,35 @@
+
+   ---------    ---------
+   |   A   |    |   A   |
+  F|       |B  F|       |B
+   |---G---|    |---G---|
+  E|       |C  E|       |C
+   |   D   |    |   D   |
+   ---------    ---------
+
+
+Arduino Pins to Wires
+=====================
+
+i2c wires
+---------
+GND	Black
+A4	White
+A5	Yellow
+
+
+7-seg LED main
+--------------
+10	B	Blue w/Black Line
+9	A	Yellow w/Black Line
+8	E	Yellow
+7	G	Blue
+6	C	Blue w/Black XXX
+5	D	White
+4	F	White w/Black Line
+
+7-seg LED common anode(s)
+--------------
+3	Green (Left Digit)
+2	Blue  (Right Digit)
+
